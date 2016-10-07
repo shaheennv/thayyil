@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js' lang='en'>
+	<!--<![endif]-->
+	<head>
+		<meta charset='utf-8' />
+		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+		<title>Thayyal Family Organization</title>
+		<meta content='width=device-width, initial-scale=1.0' name='viewport' />
+		
+		<link rel="stylesheet" href="css/jquery.maximage.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/screen.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/thayyil.css" type="text/css" media="screen" charset="utf-8" />
+		
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+		<style type="text/css" media="screen">			
+			#maximage {
+/*				position:fixed !important;*/
+			}
+			
+			/*Set my logo in bottom left*/
+			#logo {
+				bottom:30px;
+				height:auto;
+				left:30px;
+				position:absolute;
+				width:34%;
+				z-index:1000;
+			}
+			#logo img {
+				width:100%;
+			}
+			
+		</style>
+		
+		<!--[if IE 6]>
+			<style type="text/css" media="screen">
+				/*I don't feel like messing with pngs for this browser... sorry*/
+				#gradient {display:none;}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="images/logo.png" align="middle">
+			</div>
+			<div class="content">
+				<h1>Welcome</h1>
+				<h5>Our new website is under construction!</h5>
+				<p class="long">A common platform for members of Thayyil Family to stay connected at the push of a button. The website intends to widen the reach  across the globe, join hands and share thoughts at ease. The venture wish for maximum information exchange and rule out limitations that deny quality family time.</p>
+			</div>
+		</div>
+		<div class="container_mobile">
+			<div class="logo_mobile">
+				<div>
+					<img src="images/logo.png" align="middle">
+					<h5 class="content_mobile">The website is under construction!</h5>
+				</div>
+			</div>
+		</div>
+		<img class="gradient" src="images/gradient.png" alt="" />
+		<div id="maximage">
+			<img src="images/3.jpg" alt="" width="1200" height="1050" />
+			<img src="images/4.jpg" alt="" width="2048" height="1536" />
+			<img src="images/5.jpg" alt="" width="2048" height="1536" />
+			<img src="images/6.jpg" alt="" width="2048" height="1536" />
+		</div>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				// Trigger maximage
+				jQuery('#maximage').maximage();
+			});
+		</script>
+		
+		<!-- DON'T USE THIS: Insert Google Analytics code here -->
+		<script type="text/javascript">
+setTimeout(function() {
+			$(".content").animate({right: "0px"});
+
+}, 1500);
+setTimeout(function() {
+			$(".logo").fadeIn();
+}, 700);
+
+setTimeout(function() {
+			$("h1").fadeIn();
+}, 2000);
+setTimeout(function() {
+			$("h5").fadeIn();
+}, 2150);
+setTimeout(function() {
+			$(".long").fadeIn();
+}, 2300);
+
+
+		</script>
+  </body>
+</html>
