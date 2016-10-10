@@ -48,7 +48,6 @@ div.mc-image {
 	height:100%;
 	overflow:hidden;
 	width:100%;
-	filter:blur(5px);
 }
 
 .mc-old-browser .mc-image {
